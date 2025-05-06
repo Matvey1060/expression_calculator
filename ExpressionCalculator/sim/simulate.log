@@ -1,0 +1,49 @@
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {sim/simulate.tcl}
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 23:49:47 on May 06,2025
+# vcom -reportprogress 300 -93 -work work ./src/ExpressionCalculator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ExpressionCalculator
+# -- Compiling architecture Behavioral of ExpressionCalculator
+# End time: 23:49:47 on May 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 23:49:47 on May 06,2025
+# vcom -reportprogress 300 -93 -work work ./test/ExpressionCalculator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity ExpressionCalculator_tb
+# -- Compiling architecture Behavioral of ExpressionCalculator_tb
+# End time: 23:49:47 on May 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" ExpressionCalculator_tb 
+# Start time: 23:49:47 on May 06,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.expressioncalculator_tb(behavioral)#1
+# Loading work.expressioncalculator(behavioral)#1
+# ** Note: All tests completed successfully!
+#    Time: 235 ns  Iteration: 0  Instance: /expressioncalculator_tb
