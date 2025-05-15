@@ -1,0 +1,55 @@
+Flow Summary report for ExpressionCalculator
+Thu May 15 14:52:27 2025
+Quartus Prime Version 19.4.0 Build 64 12/04/2019 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------+
+; Flow Summary                                                                ;
++---------------------------------+-------------------------------------------+
+; Flow Status                     ; Successful - Thu May 15 14:39:13 2025     ;
+; Quartus Prime Version           ; 19.4.0 Build 64 12/04/2019 SC Pro Edition ;
+; Revision Name                   ; ExpressionCalculator                      ;
+; Top-level Entity Name           ; expressioncalculator                      ;
+; Family                          ; Stratix 10                                ;
+; Device                          ; 1SG065HH1F35E1VG                          ;
+; Timing Models                   ; Advance                                   ;
+; Logic utilization (in ALMs)     ; 30 / 207,360 ( < 1 % )                    ;
+; Total dedicated logic registers ; 41                                        ;
+; Total pins                      ; 45 / 504 ( 9 % )                          ;
+; Total block memory bits         ; 0 / 50,974,720 ( 0 % )                    ;
+; Total RAM Blocks                ; 0 / 2,489 ( 0 % )                         ;
+; Total DSP Blocks                ; 1 / 1,152 ( < 1 % )                       ;
+; Total HSSI RX channels          ; 0 / 24 ( 0 % )                            ;
+; Total HSSI TX channels          ; 0 / 24 ( 0 % )                            ;
+; Total PLLs                      ; 0 / 48 ( 0 % )                            ;
++---------------------------------+-------------------------------------------+
+
+
